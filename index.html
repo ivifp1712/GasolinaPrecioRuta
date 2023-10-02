@@ -113,6 +113,7 @@
 
             var consumo = (distancia * consumo100) / 100;
             var precio = consumo * lgasolina;
+            precio = precio * 1.10;
             precio = precio.toFixed(2);
             var precioPersona = precio / personas;
             precioPersona = precioPersona.toFixed(2);
